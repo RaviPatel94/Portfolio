@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components{
+
+    .navlist{
+        @apply border-b-1.5 border-b-primary bg-primary cursor-pointer 
+        hover:border-b-secondary 
+        transition-all duration-300 ease-linear;
+    }
+
+}
+
+::-webkit-scrollbar {
+    display: none;
+    -ms-overflow-style: none; 
+    scrollbar-width: none;
+}
+

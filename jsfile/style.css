@@ -1,0 +1,99 @@
+
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    width: 100vw;
+}
+
+.navigation{
+    font-size: 18px;
+    font-weight: 300;
+    margin-top: 14px;
+    display: flex;
+    justify-content: end;
+    cursor: pointer;
+    background-color: #272B0C;
+}
+
+.name{
+    font-size: 24px;
+    font-weight: 300;
+    margin-top: 8px;
+    margin-left: 10px;
+}
+
+li{
+    list-style: none;
+    margin-left: 20px;
+    height: max-content;
+}
+
+.cat {
+    position: relative;
+    cursor: grab;
+}
+  
+.eye {
+    position: absolute;
+    width: 7px;
+    height: 7px;
+    background: rgb(0, 0, 0);
+    border-radius: 50%;
+}
+  
+#left-eye {
+    top: 52px;
+    left: 29px;
+}
+  
+#right-eye {
+    top: 52px;
+    left: 53px;
+}
+
+.pupil{
+    margin-top: 3px;
+    background-color: white;
+    width: 2.5px;
+    height: 2.5px;
+}
+
+#hero{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+  
+h1{
+    font-weight: 200;
+    font-size: 90px;
+}
+
+h3{
+    font-size: 25px;
+    font-weight: normal;
+}
+
+h2{
+    font-weight: 500;
+}
+
+.about{
+    display: flex;
+    align-items:center ;
+    justify-content: center;
+    gap: 50px;
+    height: 100vh;
+}
+
+.aboutme{
+    max-width: 32%;
+    font-size: 20px;
+    font-weight: 300;
+    word-spacing: 5px;
+}
