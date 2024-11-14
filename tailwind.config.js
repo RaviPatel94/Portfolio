@@ -9,6 +9,8 @@ export default {
       colors:{
         primary:"#251e1d",
         secondary:"#8a7d7d",
+        secondarylight:"#766565",
+        grayproj:"#6E6E6E",
       },
       borderWidth: {
         '1.5': '1.5px',

@@ -44,6 +44,7 @@ function Navbar() {
         <ul className="flex gap-4 p-1 text-xl h-max">
             <li className='navlist'>Home</li>
             <li className='navlist'>Projects</li>
+            <li className='navlist'><a href="/pdf resume ravi patel.pdf">Resume</a></li>
         </ul>
         <div>
             <img ref={catimgref} src="/images/cat.png" alt="Cat" width="90px" className=" cursor-grab peer"/>
