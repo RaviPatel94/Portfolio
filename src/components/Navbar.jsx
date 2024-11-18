@@ -1,4 +1,5 @@
 import React, { useEffect, useRef } from 'react'
+import {NavLink, Link} from "react-router-dom";
 
 function Navbar() {
   const catimgref =useRef(null)
@@ -42,8 +43,11 @@ function Navbar() {
         <nav className='flex justify-between fixed w-screen'>
         <div className='text-3xl cursor-pointer w-88 pl-1'>Ravi</div>
         <ul className="flex gap-4 p-1 text-xl h-max">
-            <li className='navlist'>Home</li>
+            <li className='navlist'>
+              Home
+            </li>
             <li className='navlist'>Projects</li>
+            <li className='navlist'><a href="https://github.com/RaviPatel94" target='blank'>GitHub</a></li>
             <li className='navlist'><a href="/ravi patel resume.pdf" target='blank'>Resume</a></li>
         </ul>
         <div>

@@ -1,5 +1,4 @@
 import React from 'react'
-
 function Projects() {
   return (
     <div className='flex justify-center flex-col gap-7 min-h-screen'>

@@ -5,7 +5,7 @@
 @layer components{
 
     .navlist{
-        @apply border-b-1.5 border-b-primary bg-primary cursor-pointer 
+        @apply border-b-1.5 border-b-primary bg-primary cursor-pointer px-1
         hover:border-b-secondary 
         transition-all duration-300 ease-linear;
     }
