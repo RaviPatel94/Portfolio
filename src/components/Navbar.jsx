@@ -40,7 +40,7 @@ function Navbar() {
 
   return (
     <div>
-        <nav className='flex justify-between fixed w-screen'>
+        <nav className='flex justify-between fixed w-screen z-50'>
         <div className='text-3xl cursor-pointer w-[88px] pl-1'>Ravi</div>
         <ul className="flex gap-4 p-1 text-xl h-max">
             <li className='navlist'>

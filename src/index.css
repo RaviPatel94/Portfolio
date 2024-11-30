@@ -9,6 +9,9 @@
         hover:border-b-secondary 
         transition-all duration-300 ease-linear;
     }
+    .socialbox{
+        @apply h-24 bg-secondary w-[320px] border
+    }
 
 }
 
