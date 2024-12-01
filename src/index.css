@@ -5,12 +5,12 @@
 @layer components{
 
     .navlist{
-        @apply border-b-1.5 border-b-primary bg-primary cursor-pointer px-1
+        @apply border-b-1.5 border-b-primary bg-primary cursor-pointer px-1 rounded-sm
         hover:border-b-secondary 
         transition-all duration-300 ease-linear;
     }
     .socialbox{
-        @apply h-24 bg-secondary w-[320px] border
+        @apply h-[90px] bg-secondarylight w-[320px] rounded-xl flex
     }
 
 }
