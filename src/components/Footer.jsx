@@ -19,8 +19,9 @@ function Footer() {
             </div>
         </div>
         <div>
-            <h1 className='text-2xl mb-6' >Socials</h1>
+            <h1 className='text-2xl mb-7' >Socials</h1>
             <div className=' flex flex-col gap-4'>
+            <a href="https://github.com/RaviPatel94" target='_blank'>
             <div className='socialbox'>
               <img src="/images/github.png" alt="github logo" className='h-[75px] mx-3 my-[7px]' />
               <div className='text-primary flex flex-col justify-center'>
@@ -28,7 +29,17 @@ function Footer() {
                 <div className='text-lg'>RaviPatel94</div>
               </div>
             </div>
-            <div className='socialbox'></div>
+            </a>
+            <a href="https://www.linkedin.com/in/ravi-patel94/" target='_blank'>
+            <div className='socialbox'>
+            <img src="/images/linkedin.png" alt="github logo" className='h-[75px] mx-3 my-[7px]' />
+              <div className='text-primary flex flex-col justify-center'>
+                <div className='text-2xl'>Linkedin</div>
+                <div className='text-lg'>RaviPatel94</div>
+              </div>
+            </div>
+            </a>
+            
             </div>
         </div>
         <div>
