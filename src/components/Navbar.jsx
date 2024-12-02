@@ -38,15 +38,26 @@ function Navbar() {
       }
     })
 
+    const handleheroscroll=()=>{
+      const herosect=document.getElementById("hero")
+      herosect?.scrollIntoView({behavior:"smooth"})
+    }
+
+    const handleprojclick=()=>{
+      const projsection=document.getElementById("project")
+      projsection?.scrollIntoView({behavior:"smooth"})
+    }
+
   return (
     <div>
         <nav className='flex justify-between fixed w-screen z-50'>
         <div className='text-3xl cursor-pointer w-[88px] pl-1'>Ravi</div>
         <ul className="flex gap-4 p-1 text-xl h-max">
-            <li className='navlist'>
+            <li className='navlist'
+            onClick={handleheroscroll}>
               Home
             </li>
-            <li className='navlist'>Projects</li>
+            <li className='navlist' onClick={handleprojclick}>Projects</li>
             <li className='navlist'><a href="https://github.com/RaviPatel94" target='blank'>GitHub</a></li>
             <li className='navlist'><a href="/ravi patel resume.pdf" target='blank'>Resume</a></li>
         </ul>
