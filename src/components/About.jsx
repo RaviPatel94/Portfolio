@@ -8,7 +8,7 @@ function About() {
         Also intrested and implementing in Data science and Artificial intelligence.
       </div>
       </div>
-      <div><img src="/images/Ravi.jpg" alt="" className='h-96 rounded-xl' /></div>
+      <div><img src="/images/Ravi.jpg" alt="" className='h-96 w-80 rounded-xl' /></div>
     </div>
   )
 }
