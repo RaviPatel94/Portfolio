@@ -50,8 +50,8 @@ function Navbar() {
 
   return (
     <div>
-        <nav className='flex justify-between fixed w-screen z-50'>
-        <div className='text-3xl cursor-pointer w-[88px] pl-1'>Ravi</div>
+        <nav className='flex justify-center sm:justify-between fixed w-screen z-50'>
+        <div className='hidden text-3xl cursor-pointer w-[88px] pl-1 sm:block'>Ravi</div>
         <ul className="flex gap-4 p-1 text-xl h-max">
             <li className='navlist'
             onClick={handleheroscroll}>
@@ -61,7 +61,7 @@ function Navbar() {
             <li className='navlist'><a href="https://github.com/RaviPatel94" target='blank'>GitHub</a></li>
             <li className='navlist'><a href="/ravi patel resume.pdf" target='blank'>Resume</a></li>
         </ul>
-        <div >
+        <div className='hidden md:block' >
             <img ref={catimgref} src="/images/cat.png" alt="Cat" width="90px" className="cursor-grab peer"/>
             <div ref={(el) => (eyeref.current[0] = el)} className="h-2 w-2 bg-black rounded-full absolute z-50 top-51 right-53 overflow-hidden " id="left-eye"><div className=" bg-white h-0.6 w-0.6"></div></div>
             <div ref={(el) => (eyeref.current[1] = el)} className="h-2 w-2 bg-black rounded-full absolute z-50 top-51 right-29 overflow-hidden " id="right-eye"> <div className=" bg-white h-0.6 w-0.6"></div></div>
