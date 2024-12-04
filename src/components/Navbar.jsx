@@ -61,12 +61,12 @@ function Navbar() {
             <li className='navlist'><a href="https://github.com/RaviPatel94" target='blank'>GitHub</a></li>
             <li className='navlist'><a href="/ravi patel resume.pdf" target='blank'>Resume</a></li>
         </ul>
-        <div className='hidden sm:contents'>
+        <div >
             <img ref={catimgref} src="/images/cat.png" alt="Cat" width="90px" className="cursor-grab peer"/>
             <div ref={(el) => (eyeref.current[0] = el)} className="h-2 w-2 bg-black rounded-full absolute z-50 top-51 right-53 overflow-hidden " id="left-eye"><div className=" bg-white h-0.6 w-0.6"></div></div>
             <div ref={(el) => (eyeref.current[1] = el)} className="h-2 w-2 bg-black rounded-full absolute z-50 top-51 right-29 overflow-hidden " id="right-eye"> <div className=" bg-white h-0.6 w-0.6"></div></div>
             <div className='p-0.5 bg-primary border border-secondary opacity-0 peer-hover:opacity-100 cursor-default transition-opacity duration-700'>Hello visitor!</div>
-          </div>
+        </div>
     </nav>
     </div>
   )
