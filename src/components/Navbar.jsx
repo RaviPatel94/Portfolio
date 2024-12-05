@@ -52,13 +52,13 @@ function Navbar() {
     <div>
         <nav className='flex justify-center sm:justify-between fixed w-screen z-50'>
         <div className='hidden text-3xl cursor-pointer w-[88px] pl-1 sm:block'>Ravi</div>
-        <ul className="flex gap-4 p-1 text-xl h-max">
+        <ul className="flex gap-4 p-3 sm:p-1 text-xl h-max">
             <li className='navlist'
             onClick={handleheroscroll}>
               Home
             </li>
             <li className='navlist' onClick={handleprojclick}>Projects</li>
-            <li className='navlist'><a href="https://github.com/RaviPatel94" target='blank'>GitHub</a></li>
+            <li className='hidden sm:block navlist'><a href="https://github.com/RaviPatel94" target='blank'>GitHub</a></li>
             <li className='navlist'><a href="/ravi patel resume.pdf" target='blank'>Resume</a></li>
         </ul>
         <div className='hidden md:block' >
