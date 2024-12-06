@@ -1,6 +1,8 @@
 <!doctype html>
 <html lang="en">
   <head>
+    <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Jockey+One&family=Karla:ital,wght@0,200..800;1,200..800&display=swap" rel="stylesheet">
@@ -10,6 +12,8 @@
   </head>
   <body>
     <div id="root"></div>
-    <script type="module" src="/src/main.jsx"></script>
+    <script type="module" src="/src/main.jsx">
+      AOS.init();
+    </script>
   </body>
 </html>
