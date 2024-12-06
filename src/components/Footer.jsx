@@ -2,11 +2,10 @@ import React from 'react'
 
 function Footer() {
   return (
-    <div>
-        <div className='py-9 text-center'>
+        <div className='py-9 text-center overflow-hidden'>
         <h1 className='text-3xl sm:pl-16 pb-10'>Contact</h1>
         <div className='flex flex-col sm:flex-row justify-center items-center gap-10 sm:gap-28'>
-        <div>
+        <div data-aos="fade-up" data-aos-offset="100" >
             <h1 className='text-2xl mb-7' >Socials</h1>
             <div className=' flex flex-col gap-4'>
             <a href="https://github.com/RaviPatel94" target='_blank'>
@@ -30,7 +29,7 @@ function Footer() {
             
             </div>
         </div>
-        <div className='mailbox'>
+        <div className='mailbox' data-aos="fade-up" data-aos-offset="100">
             <div className='flex flex-col justify-center items-center gap-4'>
             <h1 className='text-2xl'>Mail me</h1>
             <form action="https://api.web3forms.com/submit" method="POST" className='flex flex-col justify-center items-center max-w-[250px] gap-4'>
@@ -42,12 +41,11 @@ function Footer() {
             </form>
             </div>
         </div>
-        <div>
+        <div data-aos="fade-up" data-aos-offset="100">
           <img src="images\catcode.gif" alt="cat on code gif" className='h-80 opacity-75 rounded-lg' />
         </div>
         </div>
         </div>
-    </div>
   )
 }
 

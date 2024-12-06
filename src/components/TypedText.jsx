@@ -1,7 +1,7 @@
 import React, { useEffect, useRef, useState } from 'react';
 import Typed from 'typed.js';
 
-const TypedText = ({ strings, typeSpeed = 50, backSpeed = 30, loop = true, backDelay = 2000 }) => {
+const TypedText = ({ strings, typeSpeed = 50, backSpeed = 30, loop, backDelay = 2000, }) => {
     const typedElement = useRef(null);
     const typedInstance = useRef(null);
     const [inView, setInView] = useState(false);
@@ -34,7 +34,7 @@ const TypedText = ({ strings, typeSpeed = 50, backSpeed = 30, loop = true, backD
                 typeSpeed,
                 backSpeed,
                 loop,
-                backDelay, 
+                backDelay,
                 onComplete: () => {
                     console.log('Completed typing all strings');
                 },
@@ -46,7 +46,7 @@ const TypedText = ({ strings, typeSpeed = 50, backSpeed = 30, loop = true, backD
                 typedInstance.current.destroy();
             }
         };
-    }, [inView, strings, typeSpeed, backSpeed, loop, backDelay]);
+    }, [inView, strings, typeSpeed, backSpeed, loop, backDelay, ]);
 
     return (
         <div>

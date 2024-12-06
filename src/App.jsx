@@ -8,7 +8,6 @@ import Footer from './components/Footer'
 import Skills from './components/Skills'
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <div className='bg-primary text-secondary'>
