@@ -13,7 +13,7 @@ function About() {
       <div className=' text-3xl pb-5'>About Me</div> 
       <div className=' sm:w-[480px] h-[194px] sm:h-[166px] text-lg sm:text-xl px-5 '> 
         <TypedText
-        strings={["Hi, i am a ethusiaistic developer from india currently in third year B.Tech in an engineering college. i like designing and developing and bringing beutiful and functional websites to life!. Also intrested and implementing in Data science and Artificial intelligence."]}
+        strings={["I am an enthusiastic developer from India, currently pursuing a B.Tech degree in my third year at an engineering college. I have a passion for designing and developing visually appealing and highly functional websites. Additionally, I am keenly interested in data science and artificial intelligence and actively explore their implementation in real-world projects."]}
         typeSpeed={20}
         backSpeed={0}
         loop={false}

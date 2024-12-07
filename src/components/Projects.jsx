@@ -28,7 +28,7 @@ function Projects() {
             </div>
             <div className='projcontainer'>
               <div className='text-2xl pt-3 text-primary'>Random Password Generator</div>
-              <div><img src="/images/news.png" className='w-12/12 rounded-md object-contain' alt="" /></div>
+              <div><img src="/images/rpg.png" className='w-12/12 rounded-md object-contain' alt="" /></div>
               <div className='text-lg pl-3 pb-1 text-primary' >Generates and customizes random password according to users need (ReactJS, TailwindCSS)</div>
               <div className=' flex gap-4'>
                 <button className='projbtn'> <a href="https://randompasswordgen1.netlify.app" target='blank'>Live</a></button>
