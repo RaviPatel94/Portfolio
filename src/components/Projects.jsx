@@ -7,7 +7,16 @@ function Projects() {
         <div className='text-3xl pb-1 sm:pl-16 sm:ml-6'>Projects</div>
         <GoArrowRight size={40} />
       </div>
-        <div className=' h-[500px] sm:h-[470px] relative flex gap-8 sm:gap-20 px-4 sm:px-16 overflow-x-scroll scroll-smooth '>
+        <div className=' h-[500px] sm:h-[470px] relative flex gap-4 sm:gap-20 px-4 sm:px-16 overflow-x-scroll scroll-smooth '>
+            <div className=' projcontainer'>
+              <div className='text-2xl pt-3 text-primary'>WebGames</div>
+              <div><img src="/images/chillwebgames.png" className='w-12/12 object-contain rounded-md' alt="" /></div>
+              <div className='text-lg pl-3 pb-1 text-primary break-words '>A retro themed website for online games with authentication system(ReactJS, TailwindCSS)</div>
+              <div className=' flex gap-4 whitespace-nowrap'>
+                <button className='projbtn'> <a href="https://chillwebgames.vercel.app/" target='blank'>Live</a></button>
+                <button className='projbtn'> <a href="https://github.com/RaviPatel94/Webgames" target='blank'>Repo</a></button>
+              </div>
+            </div>
             <div className=' projcontainer'>
               <div className='text-2xl pt-3 text-primary'>UrStore</div>
               <div><img src="/images/urstore.png" className='w-12/12 object-contain rounded-md' alt="" /></div>
