@@ -1,0 +1,52 @@
+[
+    {
+      "name": "WebGames",
+      "image": "/images/chillwebgames.png",
+      "description": "A retro themed website for online games with authentication system (ReactJS, TailwindCSS)",
+      "liveLink": "https://chillwebgames.vercel.app/",
+      "repoLink": "https://github.com/RaviPatel94/Webgames"
+    },
+    {
+      "name": "UrStore",
+      "image": "/images/urstore.png",
+      "description": "An ecommerce website for smooth transaction and common currency (ReactJS, HTML, CSS)",
+      "liveLink": "https://urstorepbl.netlify.app/",
+      "repoLink": "https://github.com/RaviPatel94/UrStore"
+    },
+    {
+      "name": "NewsVerifier",
+      "image": "/images/news.png",
+      "description": "An ML model that tells if a news is true or false (Flask, HTML, CSS, JS)",
+      "liveLink": "https://newsverifier.pythonanywhere.com/",
+      "repoLink": "https://github.com/RaviPatel94/NewsVerifier"
+    },
+    {
+      "name": "Random Password Generator",
+      "image": "/images/rpg.png",
+      "description": "Generates and customizes random passwords according to users' needs (ReactJS, TailwindCSS)",
+      "liveLink": "https://randompasswordgen1.netlify.app",
+      "repoLink": "https://github.com/RaviPatel94/Random-password-generator"
+    },
+    {
+      "name": "WearLoop",
+      "image": "/images/wearloop.png",
+      "description": "An ecommerce cloth renting website (HTML, CSS, JavaScript)",
+      "liveLink": "https://wearloop.netlify.app/",
+      "repoLink": "https://github.com/RaviPatel94/wearloop"
+    },
+    {
+      "name": "WebGames",
+      "image": "/images/webgames.png",
+      "description": "A website featuring multiple mini-games (HTML, CSS, JavaScript)",
+      "liveLink": "https://webgames404.netlify.app/",
+      "repoLink": "https://github.com/RaviPatel94/Web-games"
+    },
+    {
+      "name": "Attendance Keeper",
+      "image": "/images/attendence.png",
+      "description": "A responsive web application that calculates and analyzes your attendance (HTML, CSS, JavaScript)",
+      "liveLink": "https://attendence-keeper.netlify.app/",
+      "repoLink": "https://github.com/RaviPatel94/Attendence-Keeper"
+    }
+  ]
+  
