@@ -59,7 +59,7 @@ function Navbar() {
             </li>
             <li className='navlist' onClick={handleprojclick}>Projects</li>
             <li className='hidden sm:block navlist'><a href="https://github.com/RaviPatel94" target='blank'>GitHub</a></li>
-            <li className='navlist'><a href="/RaviPatelResume.pdf" target='blank'>Resume</a></li>
+            <li className='navlist'><a href="/Ravipatelresume.pdf" target='blank'>Resume</a></li>
         </ul>
         <div className='hidden md:block' >
             <img ref={catimgref} src="/images/cat.png" alt="Cat" width="90px" className="cursor-grab peer"/>
