@@ -6,6 +6,12 @@
       "liveLink": "https://www.figma.com/design/Yr1nf0TnfR1NYOg5Yf7OIa/Untitled"
     },
     {
+      "name": "BookCircle",
+      "image": "/images/bookcircledesign.png",
+      "description": "A userfriendly e-commerce design aimed at providing an easy and user-centric shopping experience.",
+      "liveLink": "https://www.figma.com/design/hdHk16EOvn2PyH36TsbGb1/Bookcircle?node-id=0-1&t=oSixXKWFiCoVZOhN-1"
+    },
+    {
       "name": "News Verifier",
       "image": "/images/newsverifierdesign.png",
       "description": "A simple, minimalistic website design focused on guiding users seamlessly toward the website's primary function.",
