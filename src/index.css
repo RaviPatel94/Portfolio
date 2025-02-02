@@ -13,7 +13,7 @@
         @apply h-[90px] bg-secondarylight w-[320px] rounded-xl flex
     }
     .projcontainer{
-        @apply shrink-0 w-80 sm:w-[500px] h-[460px] p-3 bg-secondary rounded-lg flex flex-col justify-center items-center gap-4 duration-200
+        @apply shrink-0 w-80 sm:w-[500px] h-[460px] p-3 bg-secondarylight rounded-lg flex flex-col justify-center items-center gap-4 duration-200
     }
     .projbtn{
         @apply bg-primary text-secondary px-6 py-1.5 mb-3 text-lg rounded-md hover:rounded-2xl transition-all duration-300
@@ -26,4 +26,3 @@
     -ms-overflow-style: none; 
     scrollbar-width: none;
 }
-

@@ -1,4 +1,3 @@
-/** @type {import('tailwindcss').Config} */
 export default {
   content: [
     "./index.html",
@@ -22,6 +21,9 @@ export default {
         "88":"88px",
         "0.6":"3px",
         "500":"500px",
+      },
+      screens:{
+        'zero': '0px',
       },
       fontSize:{
         "90":"90px",
