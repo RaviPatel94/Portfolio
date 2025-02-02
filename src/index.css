@@ -26,3 +26,13 @@
     -ms-overflow-style: none; 
     scrollbar-width: none;
 }
+.marquee-container {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+  }
+  
+  .marquee {
+    display: flex;
+    will-change: transform;
+  }
