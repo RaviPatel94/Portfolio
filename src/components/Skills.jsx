@@ -21,13 +21,14 @@ function Skills() {
           }}
           animate="loop"
         >
-          <img src="https://skillicons.dev/icons?i=react,tailwind,js,html,css,bootstrap" alt="Skills" className="inline-block mr-2" />
+          <img src="https://skillicons.dev/icons?i=react,nextjs,tailwind,js,html,css,bootstrap" alt="Skills" className="inline-block mr-2" />
           {/* Duplicate the content to make it look infinite */}
-          <img src="https://skillicons.dev/icons?i=react,tailwind,js,html,css,bootstrap" alt="Skills" className="inline-block mr-2" />
-          <img src="https://skillicons.dev/icons?i=react,tailwind,js,html,css,bootstrap" alt="Skills" className="inline-block mr-2" />
-          <img src="https://skillicons.dev/icons?i=react,tailwind,js,html,css,bootstrap" alt="Skills" className="inline-block mr-2" />
-          <img src="https://skillicons.dev/icons?i=react,tailwind,js,html,css,bootstrap" alt="Skills" className="inline-block mr-2" />
-          <img src="https://skillicons.dev/icons?i=react,tailwind,js,html,css,bootstrap" alt="Skills" className="inline-block mr-2" />
+          <img src="https://skillicons.dev/icons?i=nextjs,react,tailwind,js,html,css,bootstrap" alt="Skills" className="inline-block mr-2" />
+          <img src="https://skillicons.dev/icons?i=nextjs,react,tailwind,js,html,css,bootstrap" alt="Skills" className="inline-block mr-2" />
+          <img src="https://skillicons.dev/icons?i=nextjs,react,tailwind,js,html,css,bootstrap" alt="Skills" className="inline-block mr-2" />
+          <img src="https://skillicons.dev/icons?i=nextjs,react,tailwind,js,html,css,bootstrap" alt="Skills" className="inline-block mr-2" />
+          <img src="https://skillicons.dev/icons?i=nextjs,react,tailwind,js,html,css,bootstrap" alt="Skills" className="inline-block mr-2" />
+          <img src="https://skillicons.dev/icons?i=nextjs,react,tailwind,js,html,css,bootstrap" alt="Skills" className="inline-block mr-2" />
           
         </motion.div>
         <motion.div
@@ -45,12 +46,13 @@ function Skills() {
           }}
           animate="loop"
         >
-          <img src="https://skillicons.dev/icons?i=figma,git,firebase,vite,c,cpp,py" alt="Skills" className="inline-block mr-2" />
-          <img src="https://skillicons.dev/icons?i=figma,git,firebase,vite,c,cpp,py" alt="Skills" className="inline-block mr-2" />
-          <img src="https://skillicons.dev/icons?i=figma,git,firebase,vite,c,cpp,py" alt="Skills" className="inline-block mr-2" />
-          <img src="https://skillicons.dev/icons?i=figma,git,firebase,vite,c,cpp,py" alt="Skills" className="inline-block mr-2" />
-          <img src="https://skillicons.dev/icons?i=figma,git,firebase,vite,c,cpp,py" alt="Skills" className="inline-block mr-2" />
-          <img src="https://skillicons.dev/icons?i=figma,git,firebase,vite,c,cpp,py" alt="Skills" className="inline-block mr-2" />
+          <img src="https://skillicons.dev/icons?i=ts,java,figma,git,firebase,vite,c,cpp,py" alt="Skills" className="inline-block mr-2" />
+          <img src="https://skillicons.dev/icons?i=ts,java,figma,git,firebase,vite,c,cpp,py" alt="Skills" className="inline-block mr-2" />
+          <img src="https://skillicons.dev/icons?i=ts,java,figma,git,firebase,vite,c,cpp,py" alt="Skills" className="inline-block mr-2" />
+          <img src="https://skillicons.dev/icons?i=ts,java,figma,git,firebase,vite,c,cpp,py" alt="Skills" className="inline-block mr-2" />
+          <img src="https://skillicons.dev/icons?i=ts,java,figma,git,firebase,vite,c,cpp,py" alt="Skills" className="inline-block mr-2" />
+          <img src="https://skillicons.dev/icons?i=ts,java,figma,git,firebase,vite,c,cpp,py" alt="Skills" className="inline-block mr-2" />
+          <img src="https://skillicons.dev/icons?i=ts,java,figma,git,firebase,vite,c,cpp,py" alt="Skills" className="inline-block mr-2" />
         </motion.div>
       </div>
     </div>
