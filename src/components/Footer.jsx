@@ -17,6 +17,15 @@ function Footer() {
               </div>
             </div>
             </a>
+            <a href="https://leetcode.com/u/ravipatel94/" target='_blank'>
+            <div className='socialbox'>
+              <img src="https://upload.wikimedia.org/wikipedia/commons/1/19/LeetCode_logo_black.png" alt="github logo" className='h-[75px] mx-3 my-[7px]' />
+              <div className='text-primary flex flex-col justify-center'>
+                <div className='text-2xl'>Leetcode</div>
+                <div className='text-lg'>RaviPatel94</div>
+              </div>
+            </div>
+            </a>
             <a href="https://www.linkedin.com/in/ravi-patel94/" target='_blank'>
             <div className='socialbox'>
             <img src="/images/linkedin.png" alt="github logo" className='h-[75px] mx-3 my-[7px]' />
