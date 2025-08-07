@@ -7,18 +7,25 @@
       "repoLink": "https://github.com/RaviPatel94/Webgames"
     },
     {
+      "name": "BookCircle",
+      "image": "/images/BookCircle.png",      
+      "description": "An ecommerce website for selling and buying books with AI chatbot (ongoing work) (ReactJS, TailwindCSS)",
+      "liveLink": "https://gityou.vercel.app/",
+      "repoLink": "https://github.com/RaviPatel94/Gitstats"
+    },
+    {
+      "name": "Github Card",
+      "image": "/images/gitcard.png",
+      "description": "Creates a comprehensive card to showcase all of you github data (ongoing work) (NextJS, TailwindCSS, Github API, Graphql)",
+      "liveLink": "https://bookcircle.netlify.app/",
+      "repoLink": "https://github.com/RaviPatel94/BookCirlce"
+    },
+    {
       "name": "UrStore",
       "image": "/images/urstore.png",
       "description": "An ecommerce website for smooth transaction and common currency (ReactJS, HTML, CSS)",
       "liveLink": "https://urstorepbl.netlify.app/",
       "repoLink": "https://github.com/RaviPatel94/UrStore"
-    },
-    {
-      "name": "BookCircle",
-      "image": "/images/BookCircle.png",
-      "description": "An ecommerce website for selling and buying books with AI chatbot (ongoing work) (ReactJS, TailwindCSS)",
-      "liveLink": "https://bookcircle.netlify.app/",
-      "repoLink": "https://github.com/RaviPatel94/BookCirlce"
     },
     {
       "name": "NewsVerifier",
