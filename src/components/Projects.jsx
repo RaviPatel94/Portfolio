@@ -95,18 +95,18 @@ function Projects() {
             </div>
             <div className="flex gap-4 whitespace-nowrap">
               {project.liveLink && (
-                <button className="projbtn">
                   <a href={project.liveLink} target="blank">
+                <button className="projbtn">
                     Live
-                  </a>
                 </button>
+                  </a>
               )}
               {project.repoLink && (
-                <button className="projbtn">
                   <a href={project.repoLink} target="blank">
+                <button className="projbtn">
                     Repo
-                  </a>
                 </button>
+                  </a>
               )}
             </div>
           </div>
