@@ -2,7 +2,7 @@ import React from 'react'
 
 function Experience() {
   return (
-    <div className="px-6 sm:px-10 md:px-20 lg:px-40 py-10 sm:py-20">
+    <div className="px-6 sm:px-10 md:px-20 lg:px-40 py-10 mt-20 sm:mt-0 sm:py-20">
       <h1 className="text-2xl sm:text-3xl mb-10 sm:mb-20 text-center underline">
         Experience
       </h1>
