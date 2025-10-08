@@ -1,26 +1,31 @@
-import React, { useEffect, useState } from 'react'
+import React, { useEffect, useRef } from 'react'
 import Aos from 'aos'
 import "aos/dist/aos.css"
-import TypedText from './TypedText';
+import TypedText from './TypedText'
 
 function About() {
   const images = ["/images/Ravi.jpg", "/images/ravi2.jpg", "/images/ravi3.jpg"];
-  const [currentImageIndex, setCurrentImageIndex] = useState(0);
+  const imgRef = useRef(null);
+  const currentIndex = useRef(0);
 
   useEffect(() => {
     Aos.init({ duration: 400 });
-  }, []);
 
-  useEffect(() => {
     const interval = setInterval(() => {
-      setCurrentImageIndex((prevIndex) => (prevIndex + 1) % images.length);
+      currentIndex.current = (currentIndex.current + 1) % images.length;
+      if (imgRef.current) {
+        imgRef.current.src = images[currentIndex.current];
+      }
     }, 3000);
 
-    return () => clearInterval(interval); 
-  }, [images.length]);
+    return () => clearInterval(interval);
+  }, [images]);
 
   const handleImageClick = () => {
-    setCurrentImageIndex((prevIndex) => (prevIndex + 1) % images.length);
+    currentIndex.current = (currentIndex.current + 1) % images.length;
+    if (imgRef.current) {
+      imgRef.current.src = images[currentIndex.current];
+    }
   };
 
   return (
@@ -38,9 +43,11 @@ function About() {
           />
         </div>
       </div>
+
       <div>
         <img
-          src={images[currentImageIndex]}
+          ref={imgRef}
+          src={images[0]}
           alt="Ravi"
           className='h-80 sm:h-96 sm:min-w-80 rounded-xl cursor-pointer transition-opacity duration-500 object-cover'
           data-aos="fade-up"
