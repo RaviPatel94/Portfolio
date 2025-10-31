@@ -63,13 +63,13 @@ function Projects() {
         <div className="flex gap-2">
           <button
             onClick={displayweb}
-            className="bg-secondarylight px-4 py-2 text-white rounded-md hover:bg-purple-700 text-lg"
+            className="bg-secondarylight px-4 py-2 text-white rounded-md hover:bg-[#556b2f] text-lg"
           >
             Websites
           </button>
           <button
             onClick={displaydesign}
-            className="bg-secondarylight px-4 py-2 text-white rounded-md hover:bg-purple-700 text-lg"
+            className="bg-secondarylight px-4 py-2 text-white rounded-md hover:bg-[#395012] text-lg"
           >
             Designs
           </button>
