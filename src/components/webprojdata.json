@@ -9,9 +9,16 @@
     {
       "name": "BookCircle",
       "image": "/images/BookCircle.png",      
-      "description": "An ecommerce website for selling and buying books with AI chatbot (ongoing work) (ReactJS, TailwindCSS)",
+      "description": "An ecommerce website for selling and buying books with AI chatbot (ReactJS, Springboot, PostgreSQL, TailwindCSS)",
       "liveLink": "https://bookcircle.netlify.app/",
       "repoLink": "https://github.com/RaviPatel94/BookCirlce"
+    },
+    {
+      "name": "Resume Builder",
+      "image": "/images/resumebuilder.png",      
+      "description": "A full-stack web app enabling users to create, edit, and download resumes (Next.ts, Express, Postgresql, Redux Toolkit, TailwindCSS)",
+      "liveLink": "https://resume-builder-frontend-45va.vercel.app/",
+      "repoLink": "https://github.com/RaviPatel94/ResumeBuilderFrontend"
     },
     {
       "name": "Github Card",
