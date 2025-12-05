@@ -2,7 +2,7 @@
     {
       "name": "WebGames",
       "image": "/images/chillwebgames.png",
-      "description": "A retro themed website for online games with authentication system (ReactJS, TailwindCSS)",
+      "description": "A retro themed website for online games with authentication system (ReactJS, TailwindCSS, Postgresql, Clerk)",
       "liveLink": "https://chillwebgames.vercel.app/",
       "repoLink": "https://github.com/RaviPatel94/Webgames"
     },
